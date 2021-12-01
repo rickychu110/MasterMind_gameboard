@@ -1,0 +1,83 @@
+#mainContent {
+  border-radius: 25px;
+  margin: 30px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+#icon{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+#user{
+    background-color: #fc0808;
+    border: 3px solid rgb(252, 0, 0);
+    margin: 20px;
+    padding: 10px;
+    color:white;
+    padding: 5px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    height: 300px;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .item {
+    flex: 0 0 30%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .flex-2 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 60%;
+    margin: 20px;
+    min-width: 100px;
+    min-height: 150px;
+  }
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75%;
+}
+
+.left{
+  margin-right: 85%;
+}
+.content1{
+  text-align: left;
+  background-color: #ffffff;
+}
+.content0{
+  text-align: left;
+  background-color: #EAF2D3;;
+}
+.fa-gamepad{
+  font-size: 100px;
+}

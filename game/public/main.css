@@ -1,0 +1,101 @@
+#mainContent {
+  border-radius: 25px;
+  margin: 30px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.icon{
+  display :flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 40px;
+  margin-right: 20px;
+}
+#3flex{
+  display:flex;
+  flex-direction: column;
+}
+.box {
+  display: inline-flex;
+  border-color: white;
+  justify-content: center;
+  border-style: dotted;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
+.select {
+  display: flex;
+  flex-direction: column;
+}
+select option[value="0"] {
+  background: red;
+}
+
+select option[value="1"] {
+  background: blue;
+}
+
+select option[value="2"] {
+  background: yellow;
+}
+
+
+select option[value="3"] {
+  background: green;
+}
+
+select option[value="4"] {
+  background: pink;
+}
+
+select option[value="5"] {
+  background: purple;
+}
+button {
+  background-color: #3743f1;
+  color: white;
+  padding: 5px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.comresult {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#button {
+  display: flex;
+  flex-direction: column;
+}
+
+.percent {
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+}

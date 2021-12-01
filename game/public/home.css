@@ -1,0 +1,57 @@
+#mainContent {
+  border-radius: 25px;
+  min-height: 750px;
+  margin: 30px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+
+.flex {
+  display: flex;
+  height: 300px;
+  padding: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  flex: 0 0 30%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75%;
+}
+
+#right {
+  margin-right: 85%;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  float: left;
+}
+#left {
+  border-style: solid;
+  border-radius: 15px;
+  margin-right: 85%;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  float: left;
+}
+
+#input{
+  margin-bottom: 10px;
+}
